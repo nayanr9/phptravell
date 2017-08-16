@@ -21,6 +21,15 @@ public class BaseTest {
 				driver = new FirefoxDriver();
 			}
 		}
+		else if (osName.contains("Mac")) {
+			if (browser.equalsIgnoreCase("chrome")) {
+//				System.setProperty("webdriver.chrome.driver", projectPath + "/drivers/chromedriver.exe");
+				driver = new ChromeDriver();
+			} else if (browser.equalsIgnoreCase("firefox")) {
+//				System.setProperty("webdriver.gecko.driver", projectPath + "/drivers/geckodriver.exe");
+				driver = new FirefoxDriver();
+			}
+		}
 	}
 
 	public void navigate(String url) {
