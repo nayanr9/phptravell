@@ -5,6 +5,7 @@
 	<test name="Test">
 		<classes>
 			<class name="admin.phptravels.Test1" />
+			<class name="admin.phptravels.Test2" />
 		</classes>
 	</test>
 </suite>

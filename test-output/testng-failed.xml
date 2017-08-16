@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="admin.phptravels.Test1">
+      <class name="admin.phptravels.Test2">
         <methods>
           <include name="Login"/>
         </methods>
-      </class> <!-- admin.phptravels.Test1 -->
+      </class> <!-- admin.phptravels.Test2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
   <test name="Test(failed)">
     <classes>
-      <class name="admin.phptravels.Test1">
+      <class name="admin.phptravels.Test2">
         <methods>
-          <include name="Login"/>
+          <include name="Login" invocation-numbers="0"/>
         </methods>
-      </class> <!-- admin.phptravels.Test1 -->
+      </class> <!-- admin.phptravels.Test2 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
